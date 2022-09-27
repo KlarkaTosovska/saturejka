@@ -9,3 +9,77 @@ h1,
 h2 {
   font-family: 'Playfair Display', serif;
 }
+
+.hlavicka {
+    width: 400px;
+    margin: auto;
+    font-size: medium;
+}
+
+body {
+    background-color: #FFEFEF;
+    text-align: center;
+}
+
+.hlavni_text {
+    background-color: #FFFFFF;
+    width: 800px;
+    margin: auto;
+    padding: 20px 0 100px 0;
+}
+
+.talir {
+    width: 200px;
+    margin: 20px;
+}
+
+.jidlo {
+    margin: auto;
+    width: 700px;
+    overflow: auto;
+    display: flex;
+}
+
+.jidlo p {
+    text-align: left;
+    padding: 0px 50px;
+
+}
+
+.chod {
+    width: 300px;
+}
+
+.tlacitko {
+    background-color: #FFEFEF;
+    width: 120px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.texty {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.odstavec {
+    width: calc((100% - 80px) / 2);
+    padding: 20px;
+    text-align: left;
+    margin: 0;
+}
+
+.fotky {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.paticka {
+    margin: auto;
+    width: 700px;
+}
